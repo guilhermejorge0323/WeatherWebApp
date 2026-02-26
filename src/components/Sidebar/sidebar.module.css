@@ -1,0 +1,46 @@
+.sidebar {
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -o-transform: translateY(-10px);
+    margin-top: 20px;
+    width: 100%;
+    transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+    -webkit-transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+    -moz-transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+    -ms-transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+    -o-transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
+}
+
+.open {
+    max-height: 280px;
+    opacity: 1;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
+
+
+.list {
+    display: flex;
+    height: 280px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.list li {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active{
+    background-color: rgba(255,255,255,0.05);
+}

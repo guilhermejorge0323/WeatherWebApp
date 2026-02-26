@@ -1,0 +1,26 @@
+.aside {
+    height: 100%;
+    background-color: var(--secondary-background);
+    width: 84px;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 57px;
+}
+
+.sidebar_toogle {
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.divisory {
+    height: 2px;
+    width: 100%;
+    background: linear-gradient(to right,#1E1E1E 0%,#4A4949 48%,#1E1E1E 100%);
+}

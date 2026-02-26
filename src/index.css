@@ -1,0 +1,30 @@
+:root {
+    --primary-background: #0f0f0f;
+    --secondary-background: #1e1e1e;
+    --tertiary-background: #b9b9b9;
+    --primary-text: #ffffff;
+    --primary-icon: #5e5e5e;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+    color: var(--primary-text);
+    list-style: none;
+}
+
+html {
+    background-color: var(--primary-background);
+}
+
+body {
+    padding: 25px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
+}
