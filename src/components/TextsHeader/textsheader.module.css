@@ -1,0 +1,17 @@
+.textsHeader {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.textsHeader p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.textsHeader h1{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+

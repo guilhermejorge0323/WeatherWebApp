@@ -1,0 +1,18 @@
+.container {
+    width: 335px;
+    background-color: var(--secondary-background);
+    border-radius: 36px;
+    -webkit-border-radius: 36px;
+    -moz-border-radius: 36px;
+    -ms-border-radius: 36px;
+    -o-border-radius: 36px;
+    display: flex;
+    gap: 16px;
+    padding: 12px 24px;
+}
+
+.input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+}

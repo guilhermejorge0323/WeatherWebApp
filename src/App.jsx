@@ -1,12 +1,14 @@
-import styles from './app.module.css'
 import { Aside } from './components/Aside'
+import { Container } from './components/Container'
+import { Main } from './components/Main'
 
 function App() {
 
   return (
-    <>
-      <Aside />
-    </>
+      <Container>
+          <Aside />
+          <Main />
+      </Container>
   )
 }
 

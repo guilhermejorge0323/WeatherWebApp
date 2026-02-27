@@ -1,5 +1,4 @@
 import styles from './aside.module.css'
-import iconMenu from '../../../public/ic_round-menu.svg'
 import { SideBar } from '../SideBar'
 import { useState } from 'react'
 
@@ -13,7 +12,7 @@ export const Aside = () => {
     return (
         <aside className={styles.aside}>
             <button className={styles.sidebar_toogle} onClick={handleToggle}>
-                <img src={iconMenu} alt="" />
+                <img src='/ic_round-menu.svg' alt="" />
             </button>
             <div className={styles.divisory}></div>
             <SideBar open={open}/>

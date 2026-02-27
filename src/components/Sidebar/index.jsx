@@ -1,30 +1,24 @@
 import styles from './sidebar.module.css'
-import homeIcon from '../../../public/mage_dashboard-fill.svg'
-import mapIcon from '../../../public/solar_map-linear.svg'
-import calenderIcon from '../../../public/uil_calender.svg'
-import notificationIcon from '../../../public/mingcute_notification-line.svg'
-import settingIcon from '../../../public/uil_setting.svg'
 
 export const SideBar = ({ open }) => {
     return (
         <nav className={`${styles.sidebar} ${open ? styles.open : ''}`}>
             <ul className={styles.list}>
                 <li className={styles.active}>
-                    <img src={homeIcon} alt="" />
+                    <img src='/mage_dashboard-fill.svg' alt="" />
                 </li>
                 <li>
-                    <img src={mapIcon} alt="" />
+                    <img src='/solar_map-linear.svg' alt="" />
                 </li>
                 <li>
-                    <img src={calenderIcon} alt="" />
+                    <img src='/uil_calender.svg' alt="" />
                 </li>
                 <li>
-                    <img src={notificationIcon} alt="" />
+                    <img src='/mingcute_notification-line.svg' alt="" />
                 </li>
                 <li>
-                    <img src={settingIcon} alt="" />
+                    <img src='/uil_setting.svg' alt="" />
                 </li>
-                
             </ul>
         </nav>
     )
